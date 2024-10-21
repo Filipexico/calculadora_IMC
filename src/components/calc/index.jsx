@@ -27,7 +27,6 @@ const Formulario = () => {
             <input className={styles.input} type="number" onChange={evento => setPeso(evento.target.value)}  />
         </form>
         {calculoImc()}
-        <img className={styles.tb} src="src/images/tabela-IMC.png" alt="Tabela de IMC" />
         </div>
     )
 }
