@@ -1,4 +1,4 @@
-import Formulario from "./components/calculadora"
+import Formulario from "./components/calc"
 
 function App() {
     return(
@@ -6,7 +6,6 @@ function App() {
       <Formulario/>
       </>
     )
- 
 }
 
 export default App
